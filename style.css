@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #555;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+  height: 60px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+li {
+  text-align: center;
+  padding: 14px 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.small-text {
+  font-size: 0.9rem;
+}
+
+.menu-bg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.menu-bg:hover {
+  background-color: rgba(100, 100, 100, 0.1);
+  cursor: pointer;
+}
+
+.menu-button {
+  width: 15px;
+}
+
+.profile-pic {
+  margin-top: 6px;
+  border-radius: 50%;
+  width: 100%;
+}
+
+.search-wrapper {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  position: relative;
+  margin-top: 30px;
+}
+
+input {
+  width: 580px;
+  height: 45px;
+  padding-left: 50px;
+  font-size: 1.2rem;
+  border-radius: 45px;
+  border: 1px solid #d3d3d3;
+}
+
+input:hover {
+  box-shadow: 0 1px 3px 1px rgba(201, 201, 201, 0.5);
+}
+
+input:focus {
+  outline: none;
+}
+
+.search {
+  width: 15px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.mic {
+  width: 15px;
+  position: absolute;
+  top: 12px;
+  left: 540px;
+}
+
+.buttons {
+  width: 350px;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  border: 1px solid transparent;
+  padding: 8px 12px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+button:hover {
+  border: 1px solid #eee;
+  box-shadow: 0 0 2px 1px rgba(189, 189, 189, 0.5);
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.panel {
+  border-bottom: 1px solid #ddd;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.panel > * {
+  flex-basis: 33%;
+}
+
+p {
+  color: grey;
+  padding-left: 13px;
+}
+
+.carbon {
+  text-align: center;
+}
+
+.leaf {
+  width: 12px;
+}
+
+.right {
+  justify-content: flex-end;
+}
